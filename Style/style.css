@@ -23,6 +23,9 @@
 
 header{
     background-color: #FFF8F3;
+    background: url(../images/developer.png), url(../images/header_bg.png),#FFF8F3;
+    background-position: left top, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 nav{
@@ -49,7 +52,7 @@ nav .menu a{
     color: #474747;
 }
 .btn{
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 5px;
     color: #FFF8F3;
@@ -57,5 +60,41 @@ nav .menu a{
     width: 0 auto;
     font-size: 15px;
     background-color: #FD6E0A;
+    cursor: pointer;
+}
+
+#banner{
+    /* border: 1px solid rgb(241, 9, 87); */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bcontent{
+    max-width: 590px;
+}
+.bcontent h2{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.bcontent h1{
+    font-size: 85px;
+    color: #181818;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.bcontent p{
+    font-size: 18px;
+    color: #3f3e3e;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+#banner .banner-image{
+    max-width: 580px;
+    vertical-align: middle;
 }
 
